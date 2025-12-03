@@ -5,6 +5,7 @@ import AteliersPratique from "../page/AteliersPratique";
 import Contact from "../page/Contact";
 import Participants from "../page/Participants";
 import Confirmation from "../page/Confirmation";
+import Communication from "../page/Communication";
 
 export default function AppRouter() {
   return (
@@ -15,6 +16,7 @@ export default function AppRouter() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/participants" element={<Participants />} />
       <Route path="/confirmation" element={<Confirmation />} />
+      <Route path="/communication" element={<Communication />} />
     </Routes>
   );
 }

@@ -7,6 +7,7 @@ export default function Navbar() {
       <Link to="/ateliers-pratique">Ateliers</Link>
       <Link to="/contact">Contact</Link>
       <Link to="/participants">Participants</Link>
+      <Link to="/communication">Communication</Link>
     </nav>
   );
 }
